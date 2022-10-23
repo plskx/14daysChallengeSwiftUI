@@ -9,8 +9,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Place(place: "toronto", title: "CN Tower", caption: "Toronto")
-            Place(place: "london", title: "Big Ben", caption: "London")
+            ScrollView {
+                Place(place: "japan", title: "Tokyo", caption: "Japan")
+                Place(place: "toronto", title: "CN Tower", caption: "Toronto")
+                Place(place: "london", title: "Big Ben", caption: "London")
+                Place(place: "france", title: "Paris", caption: "France")
+            }
         }
     }
 }

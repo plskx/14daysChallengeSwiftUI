@@ -1,4 +1,4 @@
-# challenge 5 - War Card Game UI
+# challenge 5 - War Card Game UI Construction
 
 ### Demo
 
